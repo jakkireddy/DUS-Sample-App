@@ -9,7 +9,7 @@
     "test": "node node_modules/jest/bin/jest.js --watch",
     "setup": "npm install -g dus-deployer",
     "server": "node server.js"
-    },
+  },
   "dependencies": {
     "dus-deployer": "1.47.8",
     "react": "16.0.0-alpha.12",
