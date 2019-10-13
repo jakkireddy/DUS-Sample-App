@@ -23,7 +23,7 @@ public class FileConfigDownloader implements FileConfigRequestInterface {
         OkHttpClient client = new OkHttpClient();
         Gson gson = new Gson();
         Request request = new Request.Builder()
-                .url("http://192.168.1.10:8080/updateGraph?appVersion=default")
+                .url("http://192.168.1.13:8080/updateGraph?appVersion=default")
                 .build();
         Response response;
         try {

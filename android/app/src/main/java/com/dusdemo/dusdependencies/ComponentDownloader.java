@@ -34,7 +34,7 @@ public class ComponentDownloader implements ComponentRequestInterface {
 
         RequestBody body = RequestBody.create(JSON, serializedBody);
         Request request = new Request.Builder()
-                .url("http://192.168.1.10:8080/getComponents")
+                .url("http://192.168.1.13:8080/getComponents")
                 .post(body)
                 .build();
         Response response;

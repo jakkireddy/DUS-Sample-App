@@ -5,7 +5,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>This is custom Text commited for your page to commit to a repo.</Text>
+        <Text>Another sample data deployed.</Text>
       </View>
     );
   }
